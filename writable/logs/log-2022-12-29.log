@@ -1,0 +1,22 @@
+CRITICAL - 2022-12-29 13:44:02 --> Undefined variable $r
+in APPPATH\Views\Product\index.php on line 45.
+ 1 APPPATH\Views\Product\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\Product\\index.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\Product.php(29): view('Product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:37:28 --> Array to string conversion
+in APPPATH\Views\Product\index.php on line 22.
+ 1 APPPATH\Views\Product\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\Product\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\Product.php(32): view('Product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

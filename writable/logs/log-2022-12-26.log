@@ -1,0 +1,22 @@
+CRITICAL - 2022-12-26 19:59:38 --> Too few arguments to function App\Controllers\Product::delete(), 0 passed in D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Product.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-26 20:00:15 --> Undefined property: App\Controllers\Product::$model
+in APPPATH\Controllers\Product.php on line 69.
+ 1 APPPATH\Controllers\Product.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Product::$model', 'APPPATH\\Controllers\\Product.php', 69, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-26 20:02:06 --> Class 'App\Models\M_Dprd' not found
+in APPPATH\Controllers\Dprd.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dprd->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

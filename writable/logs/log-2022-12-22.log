@@ -1,0 +1,216 @@
+ERROR - 2022-12-22 19:48:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'SMP-pulsa22', 'reses', 3306, '', 0)
+#1 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Server\htdocs\addOnSF\app\Models\M_User.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Server\htdocs\addOnSF\app\Controllers\Login.php(59): App\Models\M_User->get_data('000000001')
+#6 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#7 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Server\htdocs\addOnSF\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Server\\htdoc...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Server\htdocs\addOnSF\app\Models\M_User.php(21): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Server\htdocs\addOnSF\app\Controllers\Login.php(59): App\Models\M_User->get_data('000000001')
+#5 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#6 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Server\htdocs\addOnSF\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Server\\htdoc...')
+#10 {main}
+CRITICAL - 2022-12-22 19:48:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `status` = :status:', [...], false)
+ 3 APPPATH\Models\M_User.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(59): App\Models\M_User->get_data('000000001')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 19:55:41 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reses' in D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'reses', 3306, '', 0)
+#1 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Server\htdocs\addOnSF\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Server\htdocs\addOnSF\app\Controllers\Login.php(59): App\Models\M_User->get_data('000000001')
+#6 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#7 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Server\htdocs\addOnSF\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Server\\htdoc...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reses' in D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Server\htdocs\addOnSF\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Server\htdocs\addOnSF\app\Controllers\Login.php(59): App\Models\M_User->get_data('000000001')
+#5 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#6 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Server\htdocs\addOnSF\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\Server\htdocs\addOnSF\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Server\\htdoc...')
+#10 {main}
+CRITICAL - 2022-12-22 19:55:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'reses'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `status` = :status:', [...], false)
+ 3 APPPATH\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(59): App\Models\M_User->get_data('000000001')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 19:56:16 --> Call to undefined method App\Models\M_User::updateData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Login.php(90): CodeIgniter\Model->__call('updateData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:31:44 --> Call to undefined method CodeIgniter\Session\Session::user()
+in APPPATH\Views\template\v_sidebar.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/v_sidebar', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('template/v_sidebar')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:32:20 --> Array to string conversion
+in APPPATH\Views\template\v_sidebar.php on line 33.
+ 1 APPPATH\Views\template\v_sidebar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\template\\v_sidebar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\v_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/v_sidebar', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('template/v_sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:32:21 --> Array to string conversion
+in APPPATH\Views\template\v_sidebar.php on line 33.
+ 1 APPPATH\Views\template\v_sidebar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\template\\v_sidebar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\v_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/v_sidebar', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('template/v_sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:32:22 --> Array to string conversion
+in APPPATH\Views\template\v_sidebar.php on line 33.
+ 1 APPPATH\Views\template\v_sidebar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\template\\v_sidebar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\v_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/v_sidebar', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('template/v_sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:32:50 --> Attempt to read property "user" on array
+in APPPATH\Views\template\v_sidebar.php on line 33.
+ 1 APPPATH\Views\template\v_sidebar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'APPPATH\\Views\\template\\v_sidebar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\v_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/v_sidebar', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('template/v_sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:33:10 --> Cannot use [] for reading
+in APPPATH\Views\template\v_sidebar.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-22 21:57:52 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Product\index.php on line 36.
+ 1 APPPATH\Views\Product\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\Product\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\Product.php(29): view('Product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:58:30 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Product\index.php on line 36.
+ 1 APPPATH\Views\Product\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\Product\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\Product.php(29): view('Product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:59:24 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Product\index.php on line 36.
+ 1 APPPATH\Views\Product\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\Product\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\Product.php(29): view('Product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:59:24 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Product\index.php on line 36.
+ 1 APPPATH\Views\Product\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\Product\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\Product.php(29): view('Product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 21:59:25 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Product\index.php on line 36.
+ 1 APPPATH\Views\Product\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\Product\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\Product.php(29): view('Product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

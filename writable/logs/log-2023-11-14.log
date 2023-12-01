@@ -1,0 +1,188 @@
+CRITICAL - 2023-11-14 09:08:20 --> Call to a member function like() on null
+in APPPATH\Models\M_Penduduk.php on line 40.
+ 1 APPPATH\Controllers\Home.php(61): App\Models\M_Penduduk->autocompleteData('dkd')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 09:08:51 --> Call to a member function like() on null
+in APPPATH\Models\M_Penduduk.php on line 40.
+ 1 APPPATH\Controllers\Home.php(61): App\Models\M_Penduduk->autocompleteData('dk')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 09:08:52 --> Call to a member function like() on null
+in APPPATH\Models\M_Penduduk.php on line 34.
+ 1 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('hanya')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 09:08:52 --> Call to a member function like() on null
+in APPPATH\Models\M_Penduduk.php on line 40.
+ 1 APPPATH\Controllers\Home.php(61): App\Models\M_Penduduk->autocompleteData('hanya')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 09:12:26 --> Call to a member function like() on null
+in APPPATH\Models\M_Penduduk.php on line 27.
+ 1 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('hanya')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 09:56:19 --> Call to undefined method App\Controllers\Database::getGet()
+in APPPATH\Controllers\Database.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 09:57:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Models\M_Penduduk.php on line 64.
+ 1 APPPATH\Controllers\Database.php(24): App\Models\M_Penduduk->getPaginate(10, null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 09:58:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Database\index.php on line 67.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 4 APPPATH\Controllers\Database.php(30): view('Database/index')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 09:59:17 --> Call to a member function links() on null
+in APPPATH\Views\Database\index.php on line 91.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 4 APPPATH\Controllers\Database.php(30): view('Database/index')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:03:42 --> Undefined array key "nik"
+in APPPATH\Views\Database\index.php on line 67.
+ 1 APPPATH\Views\Database\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'APPPATH\\Views\\Database\\index.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:05:35 --> Undefined variable $penduduk
+in APPPATH\Views\Database\index.php on line 63.
+ 1 APPPATH\Views\Database\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penduduk', 'APPPATH\\Views\\Database\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:05:52 --> Undefined variable $penduduk
+in APPPATH\Views\Database\index.php on line 63.
+ 1 APPPATH\Views\Database\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penduduk', 'APPPATH\\Views\\Database\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:05:55 --> Undefined variable $penduduk
+in APPPATH\Views\Database\index.php on line 63.
+ 1 APPPATH\Views\Database\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penduduk', 'APPPATH\\Views\\Database\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:06:10 --> Undefined variable $penduduk
+in APPPATH\Views\Database\index.php on line 63.
+ 1 APPPATH\Views\Database\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penduduk', 'APPPATH\\Views\\Database\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:06:14 --> Undefined variable $penduduk
+in APPPATH\Views\Database\index.php on line 63.
+ 1 APPPATH\Views\Database\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penduduk', 'APPPATH\\Views\\Database\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:06:18 --> Undefined variable $penduduk
+in APPPATH\Views\Database\index.php on line 63.
+ 1 APPPATH\Views\Database\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penduduk', 'APPPATH\\Views\\Database\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:08:12 --> Undefined array key "nik"
+in APPPATH\Views\Database\index.php on line 67.
+ 1 APPPATH\Views\Database\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'APPPATH\\Views\\Database\\index.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:08:52 --> Undefined variable $pager
+in APPPATH\Views\Database\index.php on line 91.
+ 1 APPPATH\Views\Database\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\Database\\index.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:09:36 --> Call to a member function links() on null
+in APPPATH\Views\Database\index.php on line 91.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 4 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 10:19:51 --> Undefined array key "keyword"
+in APPPATH\Views\Database\index.php on line 22.
+ 1 APPPATH\Views\Database\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keyword"', 'APPPATH\\Views\\Database\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Database\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Database/index', [], true)
+ 5 APPPATH\Controllers\Database.php(29): view('Database/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

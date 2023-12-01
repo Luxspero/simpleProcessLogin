@@ -1,0 +1,9 @@
+CRITICAL - 2022-12-07 00:20:44 --> http_build_query() expects parameter 1 to be array, string given
+in APPPATH\Controllers\Home.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'http_build_query() expects parameter 1 to be array, string given', 'APPPATH\\Controllers\\Home.php', 29, [...])
+ 2 APPPATH\Controllers\Home.php(29): http_build_query('{"subs_mdn":"08259561561461","code":"51494236164964"}')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

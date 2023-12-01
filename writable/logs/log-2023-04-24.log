@@ -1,0 +1,16 @@
+CRITICAL - 2023-04-24 13:36:06 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Login.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Login.php', 23)
+ 2 APPPATH\Controllers\Login.php(23): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 19:21:09 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Login.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Login.php', 23)
+ 2 APPPATH\Controllers\Login.php(23): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

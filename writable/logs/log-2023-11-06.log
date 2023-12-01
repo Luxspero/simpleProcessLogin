@@ -1,0 +1,421 @@
+CRITICAL - 2023-11-06 15:22:44 --> Undefined variable $modelPenduduk
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPenduduk', 'APPPATH\\Controllers\\Home.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:22:45 --> Undefined variable $modelPenduduk
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPenduduk', 'APPPATH\\Controllers\\Home.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:22:46 --> Undefined variable $modelPenduduk
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPenduduk', 'APPPATH\\Controllers\\Home.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:22:49 --> Undefined variable $modelPenduduk
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPenduduk', 'APPPATH\\Controllers\\Home.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:24:03 --> Undefined variable $modelPenduduk
+in APPPATH\Controllers\Home.php on line 56.
+ 1 APPPATH\Controllers\Home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPenduduk', 'APPPATH\\Controllers\\Home.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:24:03 --> Undefined variable $modelPenduduk
+in APPPATH\Controllers\Home.php on line 56.
+ 1 APPPATH\Controllers\Home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPenduduk', 'APPPATH\\Controllers\\Home.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:24:03 --> Undefined variable $modelPenduduk
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPenduduk', 'APPPATH\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:24:45 --> Undefined variable $modelPenduduk
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelPenduduk', 'APPPATH\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:25:13 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Brilliant\serve\htdocs\kependudukan\vendor\codeigniter4\framework\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\M_Penduduk.php(27): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('1234')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:28:41 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Brilliant\serve\htdocs\kependudukan\vendor\codeigniter4\framework\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\M_Penduduk.php(27): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('1234')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:29:30 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Brilliant\serve\htdocs\kependudukan\vendor\codeigniter4\framework\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\M_Penduduk.php(27): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('1234')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:29:40 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Brilliant\serve\htdocs\kependudukan\vendor\codeigniter4\framework\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\M_Penduduk.php(32): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Home.php(56): App\Models\M_Penduduk->autocompleteData('123')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:29:40 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Brilliant\serve\htdocs\kependudukan\vendor\codeigniter4\framework\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\M_Penduduk.php(32): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Home.php(56): App\Models\M_Penduduk->autocompleteData('1234')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:29:41 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Brilliant\serve\htdocs\kependudukan\vendor\codeigniter4\framework\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\M_Penduduk.php(27): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('1234')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:29:49 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Brilliant\serve\htdocs\kependudukan\vendor\codeigniter4\framework\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\M_Penduduk.php(27): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('1234')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:30:01 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Brilliant\serve\htdocs\kependudukan\vendor\codeigniter4\framework\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\M_Penduduk.php(27): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('1234')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:37:22 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\Brilliant\serve\htdocs\kependudukan\vendor\codeigniter4\framework\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\M_Penduduk.php(32): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Home.php(60): App\Models\M_Penduduk->autocompleteData('12')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:38:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\M_Penduduk.php on line 32.
+ 1 APPPATH\Controllers\Home.php(60): App\Models\M_Penduduk->autocompleteData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:38:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\M_Penduduk.php on line 32.
+ 1 APPPATH\Controllers\Home.php(60): App\Models\M_Penduduk->autocompleteData('12')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:38:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\M_Penduduk.php on line 32.
+ 1 APPPATH\Controllers\Home.php(60): App\Models\M_Penduduk->autocompleteData('123')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:38:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\M_Penduduk.php on line 27.
+ 1 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('123')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:38:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\M_Penduduk.php on line 27.
+ 1 APPPATH\Controllers\Home.php(39): App\Models\M_Penduduk->searchData('123')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:42:14 --> Undefined variable $judul
+in APPPATH\Views\Home\index.php on line 4.
+ 1 APPPATH\Views\Home\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\Home\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:42:21 --> Undefined array key "kolom_pencarian"
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kolom_pencarian"', 'APPPATH\\Controllers\\Home.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:42:21 --> Undefined array key "kolom_pencarian"
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kolom_pencarian"', 'APPPATH\\Controllers\\Home.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:42:22 --> Undefined array key "kolom_pencarian"
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kolom_pencarian"', 'APPPATH\\Controllers\\Home.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:42:25 --> Undefined variable $judul
+in APPPATH\Views\Home\index.php on line 4.
+ 1 APPPATH\Views\Home\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\Home\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:43:16 --> Undefined array key "kolom_pencarian"
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kolom_pencarian"', 'APPPATH\\Controllers\\Home.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:43:30 --> Undefined array key "kolom_pencarian"
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kolom_pencarian"', 'APPPATH\\Controllers\\Home.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:44:00 --> Undefined array key "kolom_pencarian"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kolom_pencarian"', 'APPPATH\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:44:04 --> Undefined array key "kolom_pencarian"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kolom_pencarian"', 'APPPATH\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:44:05 --> Undefined array key "kolom_pencarian"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kolom_pencarian"', 'APPPATH\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->autocomplete()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:47:38 --> Undefined variable $judul
+in APPPATH\Views\Home\index.php on line 4.
+ 1 APPPATH\Views\Home\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\Home\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 15:48:16 --> syntax error, unexpected single-quoted string "search_query", expecting "]"
+in APPPATH\Controllers\Home.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 16:44:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\template\v_sidebar.php on line 37.
+ 1 APPPATH\Views\template\v_sidebar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\template\\v_sidebar.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\v_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/v_sidebar', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('template/v_sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 16:45:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\template\v_sidebar.php on line 37.
+ 1 APPPATH\Views\template\v_sidebar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\template\\v_sidebar.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\v_sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/v_sidebar', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('template/v_sidebar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->search()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 18:44:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'SMP-pulsa22', 'kependudukan', 3306, '', 0)
+#1 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Server\htdocs\kependudukan\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Server\htdocs\kependudukan\app\Controllers\Login.php(54): App\Models\M_User->get_data('brillliant')
+#6 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#7 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Server\htdocs\kependudukan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Server\htdocs\kependudukan\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Server\htdocs\kependudukan\app\Controllers\Login.php(54): App\Models\M_User->get_data('brillliant')
+#5 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#6 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Server\htdocs\kependudukan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 18:44:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `statusUser` = :statusUser:', [...], false)
+ 3 APPPATH\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(54): App\Models\M_User->get_data('brillliant')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 18:45:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '#SMP-pulsa22', 'kependudukan', 3306, '', 0)
+#1 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Server\htdocs\kependudukan\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Server\htdocs\kependudukan\app\Controllers\Login.php(54): App\Models\M_User->get_data('brillliant')
+#6 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#7 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Server\htdocs\kependudukan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Server\htdocs\kependudukan\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Server\htdocs\kependudukan\app\Controllers\Login.php(54): App\Models\M_User->get_data('brillliant')
+#5 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#6 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Server\htdocs\kependudukan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 18:45:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `statusUser` = :statusUser:', [...], false)
+ 3 APPPATH\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(54): App\Models\M_User->get_data('brillliant')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 18:45:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '#SMP-pulsa22', 'kependudukan', 3306, '', 0)
+#1 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Server\htdocs\kependudukan\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Server\htdocs\kependudukan\app\Controllers\Login.php(54): App\Models\M_User->get_data('brillliant')
+#6 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#7 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Server\htdocs\kependudukan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Server\htdocs\kependudukan\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Server\htdocs\kependudukan\app\Controllers\Login.php(54): App\Models\M_User->get_data('brillliant')
+#5 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Login->login()
+#6 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Server\htdocs\kependudukan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 18:45:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `statusUser` = :statusUser:', [...], false)
+ 3 APPPATH\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(54): App\Models\M_User->get_data('brillliant')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

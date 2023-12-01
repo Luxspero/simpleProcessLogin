@@ -1,0 +1,125 @@
+CRITICAL - 2022-12-27 01:51:01 --> Call to undefined method App\Models\M_Rs::getTersedia
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Addonsm.php(38): CodeIgniter\Model->__call('getTersedia', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-27 01:52:20 --> mysqli_sql_exception: Unknown column 'codeProduct' in 'where clause' in D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MIN(prod...', 0)
+#1 D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(prod...')
+#2 D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(prod...')
+#3 D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MIN(prod...', Array, false)
+#4 D:\Brilliant\Web\htdocs\addOnSF\app\Models\M_Product.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Brilliant\Web\htdocs\addOnSF\app\Controllers\Addonsm.php(40): App\Models\M_Product->getTersedia('S12')
+#6 D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+#7 D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+#8 D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Brilliant\Web\htdocs\addOnSF\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Brilliant\Web\htdocs\addOnSF\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('D:\\Brilliant\\We...')
+#11 {main}
+CRITICAL - 2022-12-27 01:52:20 --> Unknown column 'codeProduct' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MIN(productId) AS productId, `productCode`, `productDesc`, `codeVoucer`, `status`
+FROM `product`
+WHERE `codeProduct` = \'S12\'
+AND `status` = \'Tersedia\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MIN(productId) AS productId, `productCode`, `productDesc`, `codeVoucer`, `status`
+FROM `product`
+WHERE `codeProduct` = \'S12\'
+AND `status` = \'Tersedia\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MIN(productId) AS productId, `productCode`, `productDesc`, `codeVoucer`, `status`
+FROM `product`
+WHERE `codeProduct` = \'S12\'
+AND `status` = \'Tersedia\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT MIN(productId) AS productId, `productCode`, `productDesc`, `codeVoucer`, `status`
+FROM `product`
+WHERE `codeProduct` = :codeProduct:
+AND `status` = :status:', [...], false)
+ 5 APPPATH\Models\M_Product.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Addonsm.php(40): App\Models\M_Product->getTersedia('S12')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-27 19:14:41 --> Undefined array key "usebBy"
+in APPPATH\Views\Product\index.php on line 57.
+ 1 APPPATH\Views\Product\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usebBy"', 'APPPATH\\Views\\Product\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\Product.php(29): view('Product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:17:10 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Addonsm.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Addonsm.php', 28)
+ 2 APPPATH\Controllers\Addonsm.php(28): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:19:36 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Addonsm.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Addonsm.php', 33)
+ 2 APPPATH\Controllers\Addonsm.php(33): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:20:11 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Addonsm.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Addonsm.php', 33)
+ 2 APPPATH\Controllers\Addonsm.php(33): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:20:13 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Addonsm.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Addonsm.php', 33)
+ 2 APPPATH\Controllers\Addonsm.php(33): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:20:14 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Addonsm.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Addonsm.php', 33)
+ 2 APPPATH\Controllers\Addonsm.php(33): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:20:15 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Addonsm.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Addonsm.php', 33)
+ 2 APPPATH\Controllers\Addonsm.php(33): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:20:15 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Addonsm.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Addonsm.php', 33)
+ 2 APPPATH\Controllers\Addonsm.php(33): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:20:45 --> 'break' not in the 'loop' or 'switch' context
+in APPPATH\Controllers\Addonsm.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 19:21:48 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Controllers\Addonsm.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Controllers\\Addonsm.php', 28)
+ 2 APPPATH\Controllers\Addonsm.php(28): md5(null)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Addonsm->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addonsm))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

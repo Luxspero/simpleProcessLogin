@@ -1,0 +1,25 @@
+ERROR - 2023-11-11 22:37:20 --> mysqli_sql_exception: Column 'alamat_tps' cannot be null in D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\Server\htdocs\kependudukan\app\Models\M_Penduduk.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Server\htdocs\kependudukan\app\Controllers\Database.php(215): App\Models\M_Penduduk->add(Array)
+#6 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Database->simpanExcel()
+#7 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+#8 D:\Server\htdocs\kependudukan\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Server\htdocs\kependudukan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-11 22:37:20 --> Column 'alamat_tps' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `penduduk` (`nik`, `no_kk`, `nama`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `provinsi`, `kabupaten_kota`, `kecamatan`, `desa_kel`, `tps`, `alamat_tps`, `no_tlpn`, `email`) VALUES (\'92070103********\', \'92022868********\', \'A S T U T I\', \'JEMBER\', \'1963-10-28\', \'P\', \'PAPUA BARAT\', \'KABUPATEN TELUK WONDAMA\', \'WASIOR\', \'WASIOR I\', 1, NULL, \'\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `penduduk` (`nik`, `no_kk`, `nama`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `provinsi`, `kabupaten_kota`, `kecamatan`, `desa_kel`, `tps`, `alamat_tps`, `no_tlpn`, `email`) VALUES (\'92070103********\', \'92022868********\', \'A S T U T I\', \'JEMBER\', \'1963-10-28\', \'P\', \'PAPUA BARAT\', \'KABUPATEN TELUK WONDAMA\', \'WASIOR\', \'WASIOR I\', 1, NULL, \'\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `penduduk` (`nik`, `no_kk`, `nama`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `provinsi`, `kabupaten_kota`, `kecamatan`, `desa_kel`, `tps`, `alamat_tps`, `no_tlpn`, `email`) VALUES (\'92070103********\', \'92022868********\', \'A S T U T I\', \'JEMBER\', \'1963-10-28\', \'P\', \'PAPUA BARAT\', \'KABUPATEN TELUK WONDAMA\', \'WASIOR\', \'WASIOR I\', 1, NULL, \'\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penduduk` (`nik`, `no_kk`, `nama`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `provinsi`, `kabupaten_kota`, `kecamatan`, `desa_kel`, `tps`, `alamat_tps`, `no_tlpn`, `email`) VALUES (:nik:, :no_kk:, :nama:, :tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :provinsi:, :kabupaten_kota:, :kecamatan:, :desa_kel:, :tps:, :alamat_tps:, :no_tlpn:, :email:)', [...], false)
+ 5 APPPATH\Models\M_Penduduk.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Database.php(215): App\Models\M_Penduduk->add([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Database->simpanExcel()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Database))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

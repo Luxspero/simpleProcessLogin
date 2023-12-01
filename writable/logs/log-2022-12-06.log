@@ -1,0 +1,28 @@
+CRITICAL - 2022-12-06 21:22:51 --> Illegal string offset 'data'
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'data\'', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->kirim()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 22:26:35 --> file_get_contents(https://my.smartfren.com/isiulang_new.php): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+
+in APPPATH\Controllers\Home.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://my.smartfren.com/isiulang_new.php): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+', 'APPPATH\\Controllers\\Home.php', 37, [...])
+ 2 APPPATH\Controllers\Home.php(37): file_get_contents('https://my.smartfren.com/isiulang_new.php', false, resource (stream-context))
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->kirim()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 22:30:29 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Home.php on line 52.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('home/kirim')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('home/kirim')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('home/kirim')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
